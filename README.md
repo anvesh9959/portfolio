@@ -1,5 +1,7 @@
 ****created a good looking and responsive portfolio ****
 
+have a look over the portfolio glimpse
+
 
 ![Screenshot (24)](https://github.com/anvesh9959/portfolio/assets/117638783/db2e7c5a-a128-401f-896b-605029dfd487)
 ![Screenshot (28)](https://github.com/anvesh9959/portfolio/assets/117638783/94972652-c8d3-4478-9d5b-0a70a8787f99)
