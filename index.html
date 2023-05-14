@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anvesh Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/2af1055674.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="a.gif" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                
+                <h1>Hi, I'm <span>Anvesh</span><br><span>Student</span> from Hyderabad</h1>
+            </div>
+        </div>
+    </div>
+    <!----------------about------------>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="anv.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p> As a student pursuing a career in full stack development, I am passionate about learning and staying up-to-date with the latest technologies and programming languages. I am committed to honing my skills and creating innovative, user-friendly web applications. With a strong work ethic and a willingness to take on new challenges, I am eager to contribute to the industry.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>languages</span><br> Proficient in JAVA,HTML,CSS,PYTHON, C,SQL,JAVASCRIPT and Data Structure and Algorithms.</li>
+                            <li><span>Web Development</span><br>Full stack web developer.</li>
+                            <li><span>Entrepreneur</span><br>Entrepreneurship from Intershala.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Writer</span><br>Content Writer at Marpu Foundation.</li>
+                            <li><span>Web Development</span><br>Internship at Code Clause.</li>
+                            <li><span>Entrepreneurship</span><br>Internship at Internshala.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2024</span><br>Undergraduation.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+                            <li><span>2020</span><br>Intermediate Education.&nbsp;&nbsp;&nbsp;&nbsp;</li>
+                            <li><span>2018</span><br>Secondary School.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<sub></sub></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------------------services---------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-desktop"></i>
+                   
+                    <h2>Programmer</h2>
+                    <p>As a Full Stack Developer with expertise in Java, Python, JavaScript, and SQL, I possess a diverse skill set that allows me to develop end-to-end web applications. With strong knowledge in both backend and frontend technologies, I can create applications that are both functional and visually appealing.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    
+                    <h2>Web Design</h2>
+                    <p>Experience developing consumer-focused websites using HTML, CSS, and JavaScript. Experience building products for desktop, phone, and mobile app users, meeting the highest standards for web design, user experience, best practices, usability, and speed. All this work experience combined with my age and motivation has made me work exceedingly well in various fields.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    
+                    <h2>Entrepreneur</h2>
+                    <p>Innovative and performance-driven Entrepreneur with a deep passion for technology and business. Experienced in managing all aspects of business development. Possess the ability to work and remain calm under pressure, excellent leadership skills, and great time management skills.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--------------------------Portfolio--------------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="Internshala.png" height="330px">
+                    <div class="layer">
+                        <h3>Internshala</h3>
+                        <p>In Internshala program i worked as student partner and helped students to reach their goal  </p>
+                        <a href="Internshalaa.pdf" target="_blank" download><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="marpu.jpg">
+                    <div class="layer">
+                        <h3>Marpu Foundation</h3>
+                        <p>In marpu foundation i have contributed to this ngo by writing and advertising</p>
+                        <a href="" target="_blank" download><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="codeclause.jpg">
+                    <div class="layer">
+                        <h3>Code Clause</h3>
+                        <p>In code clause i have developed a portfolio website and a webpage which is a unit converter  </p>
+                        <a href="Offer Letter (1).pdf" target="_blank" download><i class="fa-solid fa-link"></i></a>
+                
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <!-----------------------contact------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>anveshreddyaleti2030@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"><a href=""></a></i>9959367171</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/Anveshreddy2030" target="_blank"><img src="facebook.png" size = height = 35 width = 35></a>
+                        <a href="https://instagram.com/_anvesh_reddy_a?igshid=ZGUzMzM3NWJiOQ==" target="_blank"><img src="instagram.png" size = height = 35 width = 35></a>
+                        <a href="https://twitter.com/anvesh_ale9529" target="_blank"><img src="twitter.jpeg" size = height = 35 width = 35></a>
+                        <a href="http://linkedin.com/in/aleti-anvesh-549519256" target="_blank"><img src="Linkedin.png" size = height = 35 width = 35></a>
+                    </div>
+                    <a href="anvesh resume.pdf" target="_blank" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright &copy; Aleti Anvesh <i class="fa-solid fa-heart"></i> All rights reserved! </p>
+        </div>
+    </div>
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        } 
+    </script>
+    <script>
+        var sidemeu = document.getElementById("sidemenu");
+        function openmenu() {
+            sidemeu.style.right = "0";
+        }
+        function closemenu() {
+            sidemeu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwMBhZ3pYH7_RyKH_NWlDnDpfV7T09DWIvwUMU80Pw_k00BMIup5PKkrtq9Ijtnz6T_/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    },3000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+
+</html>
